@@ -12,8 +12,7 @@ services:
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=DB-Assets
     volumes:
-      - /data:/var/lib/postgresql/data
-      - /restore-db/datacenter.sql:/docker-entrypoint-initdb.d/datacenter.sql:ro
+      - ./restore-db/datacenter.sql:/docker-entrypoint-initdb.d/datacenter.sql:ro
     ports:
       - "1029:5432"
 
