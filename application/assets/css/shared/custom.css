@@ -1,0 +1,64 @@
+@media (max-width: 991px) {
+    .navbar.default-layout .navbar-brand-wrapper {
+        background: transparent;
+        margin-left: 16px;
+    }
+
+    .navbar.default-layout .navbar-brand-wrapper .brand-logo {
+        display: block;
+    }
+
+    .sidebar-offcanvas {
+        right: auto;
+        left: -255px;
+    }
+
+    .sidebar-offcanvas.active {
+        left: 0;
+    }
+}
+
+.dataTables_wrapper label {
+    margin-bottom: 0;
+}
+
+.dataTables_length select {
+    height: 35px;
+    min-width: 80px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.dataTables_filter input {
+    height: 35px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0 !important;
+}
+
+.dataTables_buttons .btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-width: 80px;
+}
+
+.dataTables_buttons .btn span {
+    font-size: 13px;
+}
+
+.dataTable th,
+.dataTable td {
+    white-space: nowrap !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: auto;
+    top: 0;
+    bottom: 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    margin-top: -0.4rem;
+    padding-left: 0;
+    padding-right: .75rem;
+}

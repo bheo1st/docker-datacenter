@@ -1,0 +1,98 @@
+/* The container_radio */
+.container_radio {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container_radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark_radio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container_radio:hover input ~ .checkmark_radio {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container_radio input:checked ~ .checkmark_radio {
+  background-color: #0a265b;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark_radio:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container_radio input:checked ~ .checkmark_radio:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container_radio .checkmark_radio:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+.treeLine, .treeLine ul, .treeLine li {
+     position: relative;
+}
+
+.treeLine ul {
+    list-style: none;
+    padding-left: 32px;
+}
+
+.treeLine li::before, .treeLine li::after {
+    content: "";
+    position: absolute;
+    left: -12px;
+}
+
+.treeLine li::before {
+    border-top: 1px solid #000;
+    top: 9px;
+    width: 8px;
+    height: 0;
+}
+
+.treeLine li::after {
+    border-left: 1px solid #000;
+    height: 100%;
+    width: 0px;
+    top: 2px;
+}
+
+.treeLine ul > li:last-child::after {
+    height: 8px;
+}
+
+</style>
