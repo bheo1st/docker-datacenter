@@ -16,7 +16,9 @@
                             <th>IP</th>
                             <th>Username</th>
                             <th>Password</th>
-                            <th>Location</th>
+                            <th>In Server</th>
+                            <th>In Rack</th>
+                            <th>In Room</th>
                         </tr>
                     </thead>
                 </table>
@@ -69,11 +71,13 @@
                         data: 'virtual_password'
                     },
                     {
-                        data: null,
-                        sortable: false,
-                        render: function(data, type, full) {
-                            return '(SERVER ' + data.server_name + ') (RACK ' + data.rack_name + ')';
-                        }
+                        data: 'server_name'
+                    },
+                    {
+                        data: 'rack_name'
+                    },
+                    {
+                        data: 'room_name'
                     },
 
 
