@@ -1,13 +1,13 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class C_infra extends MY_Controller
+class C_rack extends MY_Controller
 {
 
     public function __construct()
     {
         parent::__construct();
 
-        $this->load->model('m_infra', 'model');
+        $this->load->model('m_rack', 'model');
         $this->load->model('main/m_main', 'main_model');
     }
 
@@ -21,7 +21,7 @@ class C_infra extends MY_Controller
                 'module'        => $this->main_model->module(),
                 'menu'            => $this->main_model->menu(),
                 'js'            => $this->load->view('js_trx', '', TRUE),
-                'content'        => $this->load->view('v_infra', $content_value, TRUE)
+                'content'        => $this->load->view('rack/v_rack', $content_value, TRUE)
             );
 
             $this->load->view('main/v_main', $data);
@@ -42,13 +42,12 @@ class C_infra extends MY_Controller
     public function exportExcel()
     {
         header("Content-type: application/vnd-ms-excel");
-        header("Content-Disposition: attachment; filename=LaporanShift" . date('Ymdhis') . ".xls");
+        header("Content-Disposition: attachment; filename=LaporanRack" . date('Ymdhis') . ".xls");
         header("Pragma: no-cache");
         header("Expires: 0");
 
         $postData = $this->input->get();
-        $data = $this->model->read($postData);
-        // var_dump($data); exit();
-        echo $this->load->view('v_export', $data);
+        $data = $this->model->readExcel($postData);
+        echo $this->load->view('rack/v_export', $data);
     }
 }

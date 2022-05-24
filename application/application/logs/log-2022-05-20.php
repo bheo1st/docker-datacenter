@@ -428,3 +428,232 @@ ERROR - 2022-05-20 10:19:52 --> 404 Page Not Found: /index
 ERROR - 2022-05-20 10:19:53 --> 404 Page Not Found: /index
 ERROR - 2022-05-20 10:19:53 --> 404 Page Not Found: /index
 ERROR - 2022-05-20 10:19:53 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 11:08:24 --> Severity: Notice --> Undefined variable: listLokasi /application/application/modules/rpt/views/v_infra.php 55
+ERROR - 2022-05-20 11:08:24 --> Severity: Warning --> Invalid argument supplied for foreach() /application/application/modules/rpt/views/v_infra.php 55
+ERROR - 2022-05-20 11:08:28 --> Severity: Notice --> Array to string conversion /application/application/modules/rpt/models/M_infra.php 30
+ERROR - 2022-05-20 11:08:28 --> Severity: Warning --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 1: ....company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+                                                                     ^ /application/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2022-05-20 11:08:28 --> Query error: ERROR:  syntax error at or near ")"
+LINE 1: ....company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+                                                                     ^ - Invalid query: WITH x AS (SELECT a.* , b.room_name , c.gedung_name , d.company_name FROM mst.t_rack a LEFT JOIN mst.t_room b  ON a.room_id=b.room_id LEFT JOIN mst.t_gedung c ON b.gedung_id=c.gedung_id LEFT JOIN mst.t_company d ON c.company_id=d.company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+            y AS (SELECT COUNT(*) AS record_total FROM mst.t_rack WHERE deleted_at is NULL),
+            z AS (SELECT COUNT(*) AS record_filtered FROM mst.t_rack WHERE deleted_at is NULL )
+            SELECT x.*, y.*, z.*
+            FROM x, y, z
+ERROR - 2022-05-20 11:08:29 --> Severity: Notice --> Array to string conversion /application/application/modules/rpt/models/M_infra.php 30
+ERROR - 2022-05-20 11:08:29 --> Severity: Warning --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 1: ....company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+                                                                     ^ /application/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2022-05-20 11:08:29 --> Query error: ERROR:  syntax error at or near ")"
+LINE 1: ....company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+                                                                     ^ - Invalid query: WITH x AS (SELECT a.* , b.room_name , c.gedung_name , d.company_name FROM mst.t_rack a LEFT JOIN mst.t_room b  ON a.room_id=b.room_id LEFT JOIN mst.t_gedung c ON b.gedung_id=c.gedung_id LEFT JOIN mst.t_company d ON c.company_id=d.company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+            y AS (SELECT COUNT(*) AS record_total FROM mst.t_rack WHERE deleted_at is NULL),
+            z AS (SELECT COUNT(*) AS record_filtered FROM mst.t_rack WHERE deleted_at is NULL )
+            SELECT x.*, y.*, z.*
+            FROM x, y, z
+ERROR - 2022-05-20 11:08:35 --> Severity: Notice --> Array to string conversion /application/application/modules/rpt/models/M_infra.php 30
+ERROR - 2022-05-20 11:08:35 --> Severity: Warning --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 1: ....company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+                                                                     ^ /application/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2022-05-20 11:08:35 --> Query error: ERROR:  syntax error at or near ")"
+LINE 1: ....company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+                                                                     ^ - Invalid query: WITH x AS (SELECT a.* , b.room_name , c.gedung_name , d.company_name FROM mst.t_rack a LEFT JOIN mst.t_room b  ON a.room_id=b.room_id LEFT JOIN mst.t_gedung c ON b.gedung_id=c.gedung_id LEFT JOIN mst.t_company d ON c.company_id=d.company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+            y AS (SELECT COUNT(*) AS record_total FROM mst.t_rack WHERE deleted_at is NULL),
+            z AS (SELECT COUNT(*) AS record_filtered FROM mst.t_rack WHERE deleted_at is NULL )
+            SELECT x.*, y.*, z.*
+            FROM x, y, z
+ERROR - 2022-05-20 11:09:05 --> Severity: Notice --> Array to string conversion /application/application/modules/rpt/models/M_infra.php 30
+ERROR - 2022-05-20 11:09:05 --> Severity: Warning --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 1: ....company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+                                                                     ^ /application/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2022-05-20 11:09:05 --> Query error: ERROR:  syntax error at or near ")"
+LINE 1: ....company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+                                                                     ^ - Invalid query: WITH x AS (SELECT a.* , b.room_name , c.gedung_name , d.company_name FROM mst.t_rack a LEFT JOIN mst.t_room b  ON a.room_id=b.room_id LEFT JOIN mst.t_gedung c ON b.gedung_id=c.gedung_id LEFT JOIN mst.t_company d ON c.company_id=d.company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+            y AS (SELECT COUNT(*) AS record_total FROM mst.t_rack WHERE deleted_at is NULL),
+            z AS (SELECT COUNT(*) AS record_filtered FROM mst.t_rack WHERE deleted_at is NULL )
+            SELECT x.*, y.*, z.*
+            FROM x, y, z
+ERROR - 2022-05-20 11:10:06 --> Severity: Notice --> Array to string conversion /application/application/modules/rpt/models/M_infra.php 30
+ERROR - 2022-05-20 11:10:06 --> Severity: Warning --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 1: ....company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+                                                                     ^ /application/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2022-05-20 11:10:06 --> Query error: ERROR:  syntax error at or near ")"
+LINE 1: ....company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+                                                                     ^ - Invalid query: WITH x AS (SELECT a.* , b.room_name , c.gedung_name , d.company_name FROM mst.t_rack a LEFT JOIN mst.t_room b  ON a.room_id=b.room_id LEFT JOIN mst.t_gedung c ON b.gedung_id=c.gedung_id LEFT JOIN mst.t_company d ON c.company_id=d.company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+            y AS (SELECT COUNT(*) AS record_total FROM mst.t_rack WHERE deleted_at is NULL),
+            z AS (SELECT COUNT(*) AS record_filtered FROM mst.t_rack WHERE deleted_at is NULL )
+            SELECT x.*, y.*, z.*
+            FROM x, y, z
+ERROR - 2022-05-20 11:15:06 --> Severity: Notice --> Array to string conversion /application/application/modules/rpt/models/M_infra.php 30
+ERROR - 2022-05-20 11:15:06 --> Severity: Warning --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 1: ....company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+                                                                     ^ /application/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2022-05-20 11:15:06 --> Query error: ERROR:  syntax error at or near ")"
+LINE 1: ....company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+                                                                     ^ - Invalid query: WITH x AS (SELECT a.* , b.room_name , c.gedung_name , d.company_name FROM mst.t_rack a LEFT JOIN mst.t_room b  ON a.room_id=b.room_id LEFT JOIN mst.t_gedung c ON b.gedung_id=c.gedung_id LEFT JOIN mst.t_company d ON c.company_id=d.company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+            y AS (SELECT COUNT(*) AS record_total FROM mst.t_rack WHERE deleted_at is NULL),
+            z AS (SELECT COUNT(*) AS record_filtered FROM mst.t_rack WHERE deleted_at is NULL )
+            SELECT x.*, y.*, z.*
+            FROM x, y, z
+ERROR - 2022-05-20 11:25:07 --> Severity: Notice --> Array to string conversion /application/application/modules/rpt/models/M_infra.php 30
+ERROR - 2022-05-20 11:25:07 --> Severity: Warning --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 1: ....company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+                                                                     ^ /application/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2022-05-20 11:25:07 --> Query error: ERROR:  syntax error at or near ")"
+LINE 1: ....company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+                                                                     ^ - Invalid query: WITH x AS (SELECT a.* , b.room_name , c.gedung_name , d.company_name FROM mst.t_rack a LEFT JOIN mst.t_room b  ON a.room_id=b.room_id LEFT JOIN mst.t_gedung c ON b.gedung_id=c.gedung_id LEFT JOIN mst.t_company d ON c.company_id=d.company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+            y AS (SELECT COUNT(*) AS record_total FROM mst.t_rack WHERE deleted_at is NULL),
+            z AS (SELECT COUNT(*) AS record_filtered FROM mst.t_rack WHERE deleted_at is NULL )
+            SELECT x.*, y.*, z.*
+            FROM x, y, z
+ERROR - 2022-05-20 11:38:46 --> Severity: Notice --> Array to string conversion /application/application/modules/rpt/models/M_infra.php 30
+ERROR - 2022-05-20 11:38:46 --> Severity: Warning --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 1: ....company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+                                                                     ^ /application/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2022-05-20 11:38:46 --> Query error: ERROR:  syntax error at or near ")"
+LINE 1: ....company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+                                                                     ^ - Invalid query: WITH x AS (SELECT a.* , b.room_name , c.gedung_name , d.company_name FROM mst.t_rack a LEFT JOIN mst.t_room b  ON a.room_id=b.room_id LEFT JOIN mst.t_gedung c ON b.gedung_id=c.gedung_id LEFT JOIN mst.t_company d ON c.company_id=d.company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+            y AS (SELECT COUNT(*) AS record_total FROM mst.t_rack WHERE deleted_at is NULL),
+            z AS (SELECT COUNT(*) AS record_filtered FROM mst.t_rack WHERE deleted_at is NULL )
+            SELECT x.*, y.*, z.*
+            FROM x, y, z
+ERROR - 2022-05-20 11:38:47 --> Severity: Notice --> Array to string conversion /application/application/modules/rpt/models/M_infra.php 30
+ERROR - 2022-05-20 11:38:47 --> Severity: Warning --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 1: ....company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+                                                                     ^ /application/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2022-05-20 11:38:47 --> Query error: ERROR:  syntax error at or near ")"
+LINE 1: ....company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+                                                                     ^ - Invalid query: WITH x AS (SELECT a.* , b.room_name , c.gedung_name , d.company_name FROM mst.t_rack a LEFT JOIN mst.t_room b  ON a.room_id=b.room_id LEFT JOIN mst.t_gedung c ON b.gedung_id=c.gedung_id LEFT JOIN mst.t_company d ON c.company_id=d.company_id WHERE a.deleted_at is NULL AND a.rack_id=Array),
+            y AS (SELECT COUNT(*) AS record_total FROM mst.t_rack WHERE deleted_at is NULL),
+            z AS (SELECT COUNT(*) AS record_filtered FROM mst.t_rack WHERE deleted_at is NULL )
+            SELECT x.*, y.*, z.*
+            FROM x, y, z
+ERROR - 2022-05-20 11:55:19 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;log.t_log_shift&quot; does not exist
+LINE 1: WITH x AS (SELECT a.* FROM log.t_log_shift a where a.id_loka...
+                                   ^ /application/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2022-05-20 11:55:19 --> Query error: ERROR:  relation "log.t_log_shift" does not exist
+LINE 1: WITH x AS (SELECT a.* FROM log.t_log_shift a where a.id_loka...
+                                   ^ - Invalid query: WITH x AS (SELECT a.* FROM log.t_log_shift a where a.id_lokasi is not null   order by a.id_sync_shift desc limit 10 offset 0),
+		y AS (SELECT COUNT(*) AS record_total FROM log.t_log_shift),
+		z AS (SELECT COUNT(*) AS record_filtered FROM log.t_log_shift a  where a.id_lokasi is not null  )
+		SELECT x.*, y.*, z.*
+		FROM x, y, z
+ERROR - 2022-05-20 12:02:03 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column a.id_sync_shift does not exist
+LINE 1: ....company_id WHERE a.deleted_at is NULL   order by a.id_sync_...
+                                                             ^ /application/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2022-05-20 12:02:03 --> Query error: ERROR:  column a.id_sync_shift does not exist
+LINE 1: ....company_id WHERE a.deleted_at is NULL   order by a.id_sync_...
+                                                             ^ - Invalid query: WITH x AS (SELECT a.* , b.room_name , c.gedung_name , d.company_name FROM mst.t_rack a LEFT JOIN mst.t_room b  ON a.room_id=b.room_id LEFT JOIN mst.t_gedung c ON b.gedung_id=c.gedung_id LEFT JOIN mst.t_company d ON c.company_id=d.company_id WHERE a.deleted_at is NULL   order by a.id_sync_shift desc limit 10 offset 0),
+		y AS (SELECT COUNT(*) AS record_total FROM mst.t_rack WHERE deleted_at is NULL),
+		z AS (SELECT COUNT(*) AS record_filtered FROM mst.t_rack WHERE deleted_at is NULL  )
+		SELECT x.*, y.*, z.*
+		FROM x, y, z
+ERROR - 2022-05-20 12:02:04 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column a.id_sync_shift does not exist
+LINE 1: ....company_id WHERE a.deleted_at is NULL   order by a.id_sync_...
+                                                             ^ /application/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2022-05-20 12:02:04 --> Query error: ERROR:  column a.id_sync_shift does not exist
+LINE 1: ....company_id WHERE a.deleted_at is NULL   order by a.id_sync_...
+                                                             ^ - Invalid query: WITH x AS (SELECT a.* , b.room_name , c.gedung_name , d.company_name FROM mst.t_rack a LEFT JOIN mst.t_room b  ON a.room_id=b.room_id LEFT JOIN mst.t_gedung c ON b.gedung_id=c.gedung_id LEFT JOIN mst.t_company d ON c.company_id=d.company_id WHERE a.deleted_at is NULL   order by a.id_sync_shift desc limit 10 offset 0),
+		y AS (SELECT COUNT(*) AS record_total FROM mst.t_rack WHERE deleted_at is NULL),
+		z AS (SELECT COUNT(*) AS record_filtered FROM mst.t_rack WHERE deleted_at is NULL  )
+		SELECT x.*, y.*, z.*
+		FROM x, y, z
+ERROR - 2022-05-20 12:02:06 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column a.id_sync_shift does not exist
+LINE 1: ....company_id WHERE a.deleted_at is NULL   order by a.id_sync_...
+                                                             ^ /application/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2022-05-20 12:02:06 --> Query error: ERROR:  column a.id_sync_shift does not exist
+LINE 1: ....company_id WHERE a.deleted_at is NULL   order by a.id_sync_...
+                                                             ^ - Invalid query: WITH x AS (SELECT a.* , b.room_name , c.gedung_name , d.company_name FROM mst.t_rack a LEFT JOIN mst.t_room b  ON a.room_id=b.room_id LEFT JOIN mst.t_gedung c ON b.gedung_id=c.gedung_id LEFT JOIN mst.t_company d ON c.company_id=d.company_id WHERE a.deleted_at is NULL   order by a.id_sync_shift desc limit 10 offset 0),
+		y AS (SELECT COUNT(*) AS record_total FROM mst.t_rack WHERE deleted_at is NULL),
+		z AS (SELECT COUNT(*) AS record_filtered FROM mst.t_rack WHERE deleted_at is NULL  )
+		SELECT x.*, y.*, z.*
+		FROM x, y, z
+ERROR - 2022-05-20 12:02:44 --> Severity: Notice --> Undefined index: id_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 12:02:44 --> Severity: Notice --> Undefined index: nama_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 12:06:39 --> Severity: Notice --> Undefined index: id_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 12:06:39 --> Severity: Notice --> Undefined index: nama_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:20:58 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:21:05 --> Severity: Notice --> Undefined index: id_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:21:05 --> Severity: Notice --> Undefined index: nama_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:21:14 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:21:14 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:21:14 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:21:14 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:21:55 --> Severity: Notice --> Undefined index: id_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:21:55 --> Severity: Notice --> Undefined index: nama_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:21:56 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:21:56 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:21:56 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:21:56 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:22:39 --> Severity: Notice --> Undefined index: id_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:22:39 --> Severity: Notice --> Undefined index: nama_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:22:39 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:22:40 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:22:41 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:22:41 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:22:45 --> Severity: Notice --> Undefined variable: data /application/application/modules/rpt/views/v_export.php 40
+ERROR - 2022-05-20 13:22:45 --> Severity: Warning --> Invalid argument supplied for foreach() /application/application/modules/rpt/views/v_export.php 40
+ERROR - 2022-05-20 13:23:56 --> Severity: Notice --> Undefined variable: data /application/application/modules/rpt/views/v_export.php 40
+ERROR - 2022-05-20 13:23:56 --> Severity: Warning --> Invalid argument supplied for foreach() /application/application/modules/rpt/views/v_export.php 40
+ERROR - 2022-05-20 13:25:06 --> Severity: Notice --> Undefined index: id_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:25:06 --> Severity: Notice --> Undefined index: nama_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:25:06 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:25:07 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:25:07 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:25:07 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:29:08 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:29:22 --> Severity: Notice --> Undefined index: id_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:29:22 --> Severity: Notice --> Undefined index: nama_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:30:15 --> Severity: Notice --> Undefined index: id_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:30:15 --> Severity: Notice --> Undefined index: nama_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:30:19 --> Severity: Notice --> Undefined variable: data /application/application/modules/rpt/views/v_export.php 22
+ERROR - 2022-05-20 13:30:19 --> Severity: Warning --> Invalid argument supplied for foreach() /application/application/modules/rpt/views/v_export.php 22
+ERROR - 2022-05-20 13:34:37 --> Severity: Notice --> Undefined index: id_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:34:37 --> Severity: Notice --> Undefined index: nama_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:34:37 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:34:38 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:34:38 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:34:38 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:34:43 --> Severity: Notice --> Undefined variable: data /application/application/modules/rpt/views/v_export.php 22
+ERROR - 2022-05-20 13:34:43 --> Severity: Warning --> Invalid argument supplied for foreach() /application/application/modules/rpt/views/v_export.php 22
+ERROR - 2022-05-20 13:36:42 --> Severity: Notice --> Undefined variable: data /application/application/modules/rpt/views/v_export.php 22
+ERROR - 2022-05-20 13:36:42 --> Severity: Warning --> Invalid argument supplied for foreach() /application/application/modules/rpt/views/v_export.php 22
+ERROR - 2022-05-20 13:36:45 --> Severity: Notice --> Undefined index: id_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:36:45 --> Severity: Notice --> Undefined index: nama_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:36:46 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:36:47 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:36:47 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:36:47 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:36:50 --> Severity: Notice --> Undefined variable: data /application/application/modules/rpt/views/v_export.php 22
+ERROR - 2022-05-20 13:36:50 --> Severity: Warning --> Invalid argument supplied for foreach() /application/application/modules/rpt/views/v_export.php 22
+ERROR - 2022-05-20 13:38:03 --> Severity: Notice --> Undefined index: id_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:38:03 --> Severity: Notice --> Undefined index: nama_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:41:25 --> Severity: Notice --> Undefined index: id_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:41:25 --> Severity: Notice --> Undefined index: nama_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:42:59 --> Severity: Notice --> Undefined index: id_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:42:59 --> Severity: Notice --> Undefined index: nama_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:42:59 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:43:00 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:43:00 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:43:00 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:43:17 --> Severity: Notice --> Undefined index: id_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:43:17 --> Severity: Notice --> Undefined index: nama_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:43:17 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:43:18 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:43:18 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:43:18 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:43:47 --> Severity: Notice --> Undefined index: id_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:43:47 --> Severity: Notice --> Undefined index: nama_lokasi /application/application/modules/rpt/views/v_infra.php 56
+ERROR - 2022-05-20 13:43:47 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:43:48 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:43:48 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:43:48 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:46:33 --> Severity: Notice --> Undefined variable: listLokasi /application/application/modules/rpt/views/v_infra.php 55
+ERROR - 2022-05-20 13:46:33 --> Severity: Warning --> Invalid argument supplied for foreach() /application/application/modules/rpt/views/v_infra.php 55
+ERROR - 2022-05-20 13:46:33 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:46:34 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:46:34 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:46:34 --> 404 Page Not Found: /index
+ERROR - 2022-05-20 13:46:39 --> Severity: Notice --> Undefined variable: data /application/application/modules/rpt/views/v_export.php 22
+ERROR - 2022-05-20 13:46:39 --> Severity: Warning --> Invalid argument supplied for foreach() /application/application/modules/rpt/views/v_export.php 22
