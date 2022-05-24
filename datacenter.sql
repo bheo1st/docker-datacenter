@@ -671,7 +671,7 @@ COPY mst.t_gedung (gedung_id, gedung_name, gedung_address, created_at, created_b
 23	CYBER25	JL KREKOT BUNDER 	2022-04-26 12:57:18.277528	admin	2022-04-26 15:15:30.075393	18
 24	TEST1	JL KREKOT BUNDER 	2022-05-10 16:09:51.917809	admin	2022-05-10 16:10:04.563441	16
 22	REMPOA 26	JL REMPOA	2022-05-10 16:12:53.393683	admin	\N	20
-25	TEST	JL	2022-05-10 16:13:34.132614	admin	\N	17
+25	TEST	JL KUNINGAN 26	2022-05-24 05:17:36.562303	admin	\N	17
 \.
 
 
@@ -831,8 +831,6 @@ CMOD005	05-03	CRO0001	f	f	f
 CMOD005	05-03	CRO0006	f	f	f
 CMOD005	05-04	CRO0001	f	f	f
 CMOD005	05-04	CRO0006	f	f	f
-CMOD005	05-05	CRO0001	f	f	f
-CMOD005	05-05	CRO0006	f	f	f
 CMOD001	01	CRO0007	f	f	f
 CMOD001	01-01	CRO0007	f	f	f
 CMOD001	01-02	CRO0007	f	f	f
@@ -844,7 +842,6 @@ CMOD002	02-03-04	CRO0007	f	f	f
 CMOD005	05-01	CRO0007	f	f	f
 CMOD005	05-03	CRO0007	f	f	f
 CMOD005	05-04	CRO0007	f	f	f
-CMOD005	05-05	CRO0007	f	f	f
 CMOD002	02	CRO0008	f	f	f
 CMOD002	02-03-01	CRO0008	f	f	f
 CMOD002	02-03-05	CRO0008	f	f	f
@@ -893,9 +890,6 @@ CMOD001	01-01	Manajemen Akses	svc/c_role	\N	f	t	t	f	f	01
 CMOD001	01-02	Manajemen Akun	svc/c_user	\N	f	t	t	f	f	01
 CMOD002	02	Master Data	#	menu-icon fa fa-database	t	f	f	f	t	\N
 CMOD005	05	Manajemen Laporan	#	menu-icon fa fa-book	t	f	f	f	t	\N
-CMOD005	05-03	Laporan Shift	rpt/c_shift	\N	f	f	f	f	f	05
-CMOD005	05-04	Laporan Denda	rpt/c_denda	\N	f	f	f	f	f	05
-CMOD005	05-05	Laporan Registrasi Member	rpt/c_registrasi_member	\N	f	f	f	f	f	05
 CMOD002	02-01	Mastering Company	mst/c_company	\N	f	t	t	t	f	02
 CMOD002	02-03-01	Gedung	mst/c_gedung	\N	f	f	f	f	f	02-03
 CMOD002	02-03-03	Rack	mst/c_rack	\N	f	f	f	f	f	02-03
@@ -903,7 +897,9 @@ CMOD002	02-03-02	Room	mst/c_room	\N	f	f	f	f	f	02-03
 CMOD002	02-03	Mastering Data Center	#	\N	t	f	f	f	f	02
 CMOD002	02-03-05	Virtual Server	mst/c_virtual	\N	f	f	f	f	f	02-03
 CMOD002	02-03-04	Server	mst/c_server	\N	f	f	f	f	f	02-03
-CMOD005	05-01	Laporan Transaksi	rpt/c_infra	\N	f	f	f	f	f	05
+CMOD005	05-01	Laporan Rack Server	rpt/c_rack	\N	f	f	f	f	f	05
+CMOD005	05-03	Laporan Server Fisik	rpt/c_server	\N	f	f	f	f	f	05
+CMOD005	05-04	Laporan Virtual Server	rpt/c_virtual	\N	f	f	f	f	f	05
 \.
 
 
