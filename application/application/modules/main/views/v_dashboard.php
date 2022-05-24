@@ -9,7 +9,7 @@
           <h5 class="font-weight-medium ml-2">UNIT</h5>
         </div>
         <div class="d-flex align-items-center">
-          <div class="bg-primary dot-indicator"></div>
+          <div class="menu-icon mdi mdi-fridge"></div>
           <p class="text-muted mb-0 ml-2">RACK SERVER</p>
         </div>
       </div>
@@ -25,7 +25,7 @@
           <h5 class="font-weight-medium ml-2">UNIT</h5>
         </div>
         <div class="d-flex align-items-center">
-          <div class="bg-primary dot-indicator"></div>
+          <div class="menu-icon mdi mdi-server"></div>
           <p class="text-muted mb-0 ml-2">SERVER FISIK</p>
         </div>
       </div>
@@ -41,7 +41,7 @@
           <h5 class="font-weight-medium ml-2">UNIT</h5>
         </div>
         <div class="d-flex align-items-center">
-          <div class="bg-primary dot-indicator"></div>
+          <div class="menu-icon mdi mdi-server"></div>
           <p class="text-muted mb-0 ml-2">VIRTUAL SERVER</p>
         </div>
       </div>
@@ -57,7 +57,7 @@
           <h5 class="font-weight-medium ml-2">UNIT</h5>
         </div>
         <div class="d-flex align-items-center">
-          <div class="bg-primary dot-indicator"></div>
+          <div class="menu-icon mdi mdi-city"></div>
           <p class="text-muted mb-0 ml-2">ROOM SERVER</p>
         </div>
       </div>
@@ -73,7 +73,7 @@
           <h5 class="font-weight-medium ml-2">UNIT</h5>
         </div>
         <div class="d-flex align-items-center">
-          <div class="bg-primary dot-indicator"></div>
+          <div class="menu-icon mdi mdi-city"></div>
           <p class="text-muted mb-0 ml-2">GEDUNG</p>
         </div>
       </div>
