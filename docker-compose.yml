@@ -17,12 +17,14 @@ services:
       - "1029:5432"
     networks:
       - webnet
+    restart: unless-stopped
 
   webserver:
     image: nginx:alpine
     container_name: webserver
     depends_on:
       - db
+      - php-fpm
     working_dir: /application
     volumes:
       - ./application:/application
@@ -31,6 +33,7 @@ services:
       - "1028:80"
     networks:
       - webnet
+    restart: unless-stopped
 
   php-fpm:
     build: phpdocker/php-fpm
@@ -48,6 +51,7 @@ services:
       - ./phpdocker/php-fpm/php-ini-overrides.ini:/etc/php/7.4/fpm/conf.d/99-overrides.ini
     networks:
       - webnet
+    restart: unless-stopped
 
 networks:
   webnet:
