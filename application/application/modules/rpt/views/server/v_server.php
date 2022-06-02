@@ -5,6 +5,7 @@
             <div class="col-12">
                 <div>
                     <button type="button" id="btn-export-excel" class="btn btn-primary">Export Excel</button>
+                    <button type="button" id="btn-export-pdf" class="btn btn-info btn-sm">Export PDF</button>
                 </div>
                 <br>
                 <table id="order-listing" class="table table-responsive" style="width: 100%;">
@@ -99,6 +100,13 @@
 
         var urlExportExcel = `<?= site_url(); ?>rpt/c_server/exportExcel`;
         window.open(urlExportExcel, '_blank');
+
+    });
+
+    $("#btn-export-pdf").click(function() {
+        var urlExportPdf = `<?= site_url(); ?>rpt/c_server/exportPdf`;
+        window.open(urlExportPdf, '_blank');
+
 
     });
 </script>

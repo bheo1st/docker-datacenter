@@ -43,4 +43,15 @@ class M_rack extends CI_Model
 
         return $records;
     }
+
+    public function readPdf($postData)
+    {
+
+        $response = [];
+        $out = [];
+
+        $records['data'] = $this->db->query("SELECT a.* , b.room_name , c.gedung_name , d.company_name FROM mst.t_rack a LEFT JOIN mst.t_room b  ON a.room_id=b.room_id LEFT JOIN mst.t_gedung c ON b.gedung_id=c.gedung_id LEFT JOIN mst.t_company d ON c.company_id=d.company_id WHERE a.deleted_at is NULL ")->result_array();
+
+        return $records;
+    }
 }

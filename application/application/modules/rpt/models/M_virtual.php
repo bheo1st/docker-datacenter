@@ -43,4 +43,14 @@ class M_virtual extends CI_Model
 
         return $records;
     }
+    public function readPdf($postData)
+    {
+
+        $response = [];
+        $out = [];
+
+        $records['data'] = $this->db->query("SELECT a.*, b.server_name,c.rack_name,d.room_name,e.gedung_name,f.company_name FROM mst.t_virtual a LEFT JOIN mst.t_server b ON a.server_id = b.server_id LEFT JOIN mst.t_rack c ON b.rack_id = c.rack_id LEFT JOIN mst.t_room d ON c.room_id=d.room_id LEFT JOIN mst.t_gedung e ON d.gedung_id=e.gedung_id LEFT JOIN mst.t_company f ON e.company_id=f.company_id WHERE a.deleted_at is NULL")->result_array();
+
+        return $records;
+    }
 }

@@ -50,4 +50,23 @@ class C_rack extends MY_Controller
         $data = $this->model->readExcel($postData);
         echo $this->load->view('rack/v_export', $data);
     }
+
+    public function exportPdf()
+    {
+        $this->load->library('dompdf_gen');
+        $postData = $this->input->get();
+        $data = $this->model->readPdf($postData);
+        $this->load->view('rack/v_pdf', $data);
+        $paper_size = 'A4'; // ukuran kertas
+        $orientation = 'landscape'; //tipe format kertas potrait atau landscape
+        $html = $this->output->get_output();
+        $html = preg_replace('/>\s+</', '><', $html);
+        $this->dompdf->set_paper($paper_size, $orientation);
+        //Convert to PDF
+        $this->dompdf->load_html($html);
+        $this->dompdf->render();
+        $this->dompdf->stream("laporan rack server.pdf", array('Attachment' => 0));
+        // nama file pdf yang di hasilkan
+
+    }
 }
