@@ -1740,3 +1740,76 @@ ERROR - 2022-06-02 07:20:18 --> Severity: 8192 --> Function create_function() is
 ERROR - 2022-06-02 07:20:18 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
 ERROR - 2022-06-02 07:20:18 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
 ERROR - 2022-06-02 07:20:18 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:26:53 --> Severity: 8192 --> The each() function is deprecated. This message will be suppressed on further calls /application/application/third_party/dompdf/include/style.cls.php 790
+ERROR - 2022-06-02 07:31:05 --> Severity: 8192 --> The each() function is deprecated. This message will be suppressed on further calls /application/application/third_party/dompdf/include/style.cls.php 790
+ERROR - 2022-06-02 07:31:05 --> Severity: Warning --> A non-numeric value encountered /application/application/third_party/dompdf/include/page_frame_decorator.cls.php 464
+ERROR - 2022-06-02 07:31:05 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:05 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:05 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:05 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:05 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:05 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:05 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:05 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:05 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:05 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:28 --> Severity: 8192 --> The each() function is deprecated. This message will be suppressed on further calls /application/application/third_party/dompdf/include/style.cls.php 790
+ERROR - 2022-06-02 07:31:28 --> Severity: Warning --> A non-numeric value encountered /application/application/third_party/dompdf/include/page_frame_decorator.cls.php 464
+ERROR - 2022-06-02 07:31:28 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:28 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:28 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:28 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:28 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:28 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:28 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:28 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:28 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:28 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:37 --> Severity: 8192 --> The each() function is deprecated. This message will be suppressed on further calls /application/application/third_party/dompdf/include/style.cls.php 790
+ERROR - 2022-06-02 07:31:37 --> Severity: Warning --> A non-numeric value encountered /application/application/third_party/dompdf/include/page_frame_decorator.cls.php 464
+ERROR - 2022-06-02 07:31:37 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:37 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:37 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:37 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:37 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:37 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:37 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:38 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:38 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:31:38 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:37:14 --> Severity: 8192 --> The each() function is deprecated. This message will be suppressed on further calls /application/application/third_party/dompdf/include/style.cls.php 790
+ERROR - 2022-06-02 07:37:14 --> Severity: Warning --> A non-numeric value encountered /application/application/third_party/dompdf/include/page_frame_decorator.cls.php 464
+ERROR - 2022-06-02 07:37:14 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:37:14 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:37:14 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:37:14 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:37:14 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:37:14 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:37:14 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:37:14 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:37:14 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:37:14 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:39:37 --> Severity: 8192 --> The each() function is deprecated. This message will be suppressed on further calls /application/application/third_party/dompdf/include/style.cls.php 790
+ERROR - 2022-06-02 07:39:37 --> Severity: Warning --> A non-numeric value encountered /application/application/third_party/dompdf/include/page_frame_decorator.cls.php 464
+ERROR - 2022-06-02 07:39:37 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:39:37 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:39:38 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:39:38 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:39:38 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:39:38 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:39:38 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:39:38 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:39:38 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:39:38 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:39:54 --> Severity: 8192 --> The each() function is deprecated. This message will be suppressed on further calls /application/application/third_party/dompdf/include/style.cls.php 790
+ERROR - 2022-06-02 07:39:54 --> Severity: Warning --> A non-numeric value encountered /application/application/third_party/dompdf/include/page_frame_decorator.cls.php 464
+ERROR - 2022-06-02 07:39:54 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:39:54 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:39:54 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:39:55 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:39:55 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:39:55 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:39:55 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:39:55 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:39:55 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
+ERROR - 2022-06-02 07:39:55 --> Severity: 8192 --> Function create_function() is deprecated /application/application/third_party/dompdf/include/text_frame_reflower.cls.php 381
