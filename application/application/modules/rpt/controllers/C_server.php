@@ -53,7 +53,7 @@ class C_server extends MY_Controller
 
     public function exportPdf()
     {
-        $this->load->library('dompdf_gen');
+        $this->load->library('pdf');
         $postData = $this->input->get();
         $data = $this->model->readPdf($postData);
         $this->load->view('server/v_pdf', $data);

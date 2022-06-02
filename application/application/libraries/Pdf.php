@@ -18,7 +18,7 @@
  * 
  */
 
-class Dompdf_gen
+class Pdf
 {
 
 	public function __construct()
