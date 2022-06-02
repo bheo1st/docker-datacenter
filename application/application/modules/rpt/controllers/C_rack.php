@@ -56,6 +56,6 @@ class C_rack extends MY_Controller
         $this->load->library('mypdf');
         $postData = $this->input->get();
         $data = $this->model->readPdf($postData);
-        $this->mypdf->generate('rack/v_pdf', $data, 'laporan-mahasiswa', 'A4', 'landscape');
+        $this->mypdf->generate('rack/v_pdf', $data, 'laporan-rack-server', 'A4', 'landscape');
     }
 }

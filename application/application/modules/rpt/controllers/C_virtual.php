@@ -53,21 +53,9 @@ class C_virtual extends MY_Controller
 
     public function exportPdf()
     {
-        $this->load->library('dompdf_gen');
+        $this->load->library('mypdf');
         $postData = $this->input->get();
         $data = $this->model->readPdf($postData);
-        $this->load->view('virtual/v_pdf', $data);
-        $paper_size = 'A4'; // ukuran kertas
-        $orientation = 'landscape'; //tipe format kertas potrait atau landscape
-        $html = $this->output->get_output();
-        $html = preg_replace('/>\s+</', '><', $html);
-        $this->dompdf->set_paper($paper_size, $orientation);
-        // Convert to PDF
-        $this->dompdf->load_html($html);
-        ob_end_clean();
-        $this->dompdf->render();
-        $this->dompdf->stream("laporan server virtual.pdf", array('Attachment' => 0));
-        // nama file pdf yang di hasilkan
-
+        $this->mypdf->generate('virtual/v_pdf', $data, 'laporan-virtual-server', 'A4', 'landscape');
     }
 }
