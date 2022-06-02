@@ -62,7 +62,7 @@ class C_virtual extends MY_Controller
         $html = $this->output->get_output();
         $html = preg_replace('/>\s+</', '><', $html);
         $this->dompdf->set_paper($paper_size, $orientation);
-        //Convert to PDF
+        // Convert to PDF
         $this->dompdf->load_html($html);
         ob_end_clean();
         $this->dompdf->render();
