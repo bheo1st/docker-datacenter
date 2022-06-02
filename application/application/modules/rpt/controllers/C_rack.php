@@ -53,7 +53,7 @@ class C_rack extends MY_Controller
 
     public function exportPdf()
     {
-        $this->load->library('pdf');
+        $this->load->library('dompdf_gen');
         $postData = $this->input->get();
         $data = $this->model->readPdf($postData);
         $this->load->view('rack/v_pdf', $data);
@@ -64,6 +64,7 @@ class C_rack extends MY_Controller
         $this->dompdf->set_paper($paper_size, $orientation);
         //Convert to PDF
         $this->dompdf->load_html($html);
+        ob_end_clean();
         $this->dompdf->render();
         $this->dompdf->stream("laporan rack server.pdf", array('Attachment' => 0));
         // nama file pdf yang di hasilkan
