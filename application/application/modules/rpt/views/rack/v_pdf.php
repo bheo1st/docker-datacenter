@@ -23,7 +23,7 @@
             <td align="center">
                 <span style="line-height: 1.6; font-weight: bold;">
                     LAPORAN DATA RACK SERVER <br>
-                    <?= print_r($data[0]['company_name']) ?>
+                    JARING MAL INDONESIA
 
                 </span>
             </td>
