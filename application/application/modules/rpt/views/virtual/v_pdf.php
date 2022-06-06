@@ -22,7 +22,7 @@
         <tr>
             <td align="center">
                 <span style="line-height: 1.6; font-weight: bold;">
-                    LAPORAN DATA SERVER FISIK <br>
+                    LAPORAN DATA VIRTUAL SERVER <br>
                     JARING MAL INDONESIA
 
                 </span>

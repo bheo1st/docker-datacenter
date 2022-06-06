@@ -21,7 +21,7 @@ class Mypdf
         $dompdf->setPaper($paper, $orientation);
         // Render the HTML as PDF
         $dompdf->render();
-        $dompdf->stream($filename . ".pdf", array("Attachment" => FALSE));
+        $dompdf->stream($filename . ".pdf", array("Attachment" => 0));
     }
 }
 

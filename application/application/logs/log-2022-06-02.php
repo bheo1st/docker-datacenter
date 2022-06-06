@@ -2124,3 +2124,10 @@ ERROR - 2022-06-02 12:38:39 --> Severity: Warning --> array_map(): Expected para
 ERROR - 2022-06-02 12:40:31 --> Severity: Warning --> array_map(): Expected parameter 2 to be an array, null given /application/assets/dompdf/src/Renderer/AbstractRenderer.php 771
 ERROR - 2022-06-02 12:40:32 --> Severity: Warning --> array_map(): Expected parameter 2 to be an array, null given /application/assets/dompdf/src/Renderer/AbstractRenderer.php 771
 ERROR - 2022-06-02 12:40:32 --> Severity: Warning --> array_map(): Expected parameter 2 to be an array, null given /application/assets/dompdf/src/Renderer/AbstractRenderer.php 765
+ERROR - 2022-06-02 12:45:43 --> Severity: Warning --> array_map(): Expected parameter 2 to be an array, null given /application/assets/dompdf/src/Renderer/AbstractRenderer.php 771
+ERROR - 2022-06-02 12:45:43 --> Severity: Warning --> array_map(): Expected parameter 2 to be an array, null given /application/assets/dompdf/src/Renderer/AbstractRenderer.php 771
+ERROR - 2022-06-02 12:45:43 --> Severity: Warning --> array_map(): Expected parameter 2 to be an array, null given /application/assets/dompdf/src/Renderer/AbstractRenderer.php 765
+ERROR - 2022-06-02 12:45:45 --> 404 Page Not Found: /index
+ERROR - 2022-06-02 12:46:28 --> Severity: Warning --> array_map(): Expected parameter 2 to be an array, null given /application/assets/dompdf/src/Renderer/AbstractRenderer.php 771
+ERROR - 2022-06-02 12:46:28 --> Severity: Warning --> array_map(): Expected parameter 2 to be an array, null given /application/assets/dompdf/src/Renderer/AbstractRenderer.php 771
+ERROR - 2022-06-02 12:46:28 --> Severity: Warning --> array_map(): Expected parameter 2 to be an array, null given /application/assets/dompdf/src/Renderer/AbstractRenderer.php 765
