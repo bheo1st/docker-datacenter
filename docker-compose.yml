@@ -38,14 +38,6 @@ services:
   php-fpm:
     build: phpdocker/php-fpm
     working_dir: /application
-    deploy:
-      replicas: 5
-      resources:
-        limits:
-          cpus: "0.1"
-          memory: 50M
-      restart_policy:
-        condition: on-failure
     volumes:
       - ./application:/application
       - ./phpdocker/php-fpm/php-ini-overrides.ini:/etc/php/7.4/fpm/conf.d/99-overrides.ini
